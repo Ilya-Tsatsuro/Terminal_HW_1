@@ -8,11 +8,11 @@ Command: pwd
 ```
 2) Создать папку
 ```bash
-Command: mkdir Terminal_test
+Command: mkdir New_folder
 ```
 3) Зайти в папку
 ```bash
-Command: cd Terminal_test/
+Command: cd New_folder/
 ```
 4) Создать 3 папки
 ```bash
@@ -53,11 +53,11 @@ Command: cd ..
 ---
 13) Переместить любые 2 файла, которые вы создали, в любую другую папку.
 ```bash
-Command: mv file1.txt file2.txt /Users/tsatsuro/Terminal_test/Folder2
+Command: mv file1.txt file2.txt /Users/tsatsuro/New_folder/Folder2
 ```
 14) Скопировать любые 2 файла, которые вы создали, в любую другую папку.
 ```bash
-Command: cp file2.json file3.txt /Users/tsatsuro/Terminal_test/Folder3
+Command: cp file2.json file3.txt /Users/tsatsuro/New_folder/Folder3
 ```
 15) Найти файл по имени
 ```bash
@@ -108,20 +108,20 @@ Response: {
 
 ```bash
 Command: #!/bin/bash 
-cd Terminal_test
+cd New_folder
 mkdir Folder1 Folder2 Folder3 
 cd Folder1
 touch file1.txt file2.txt file3.txt file1.json file2.json
 mkdir Folder1.1 Folder1.2 Folder1.3
 ls
-mv file1.txt file2.txt /Users/tsatsuro/Terminal_test/Folder2
+mv file1.txt file2.txt /Users/tsatsuro/New_folder/Folder2
 
 echo "Владыка, задание выполнено, джедаи бегут!"
 sleep 3
 echo "А теперь удалим все что мы насоздавали."
 
 sleep 5 
-cd /Users/tsatsuro/Terminal_test
+cd /Users/tsatsuro/New_folder
 rm -r Folder1/ Folder2/ Folder3/
 ```
 
